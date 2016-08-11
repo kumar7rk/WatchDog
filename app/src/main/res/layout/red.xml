@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/nameEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameTv"
+        android:layout_alignBottom="@+id/nameTv"
+        android:layout_alignRight="@+id/locationEt"
+        android:layout_toRightOf="@+id/locationTv"
+        android:paddingLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <TextView
+        android:id="@+id/locationTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/nameTv"
+        android:layout_marginTop="36dp"
+        android:text="@string/escaped_from"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   <TextView
+       android:id="@+id/destinationTv"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/locationTv"
+       android:layout_marginTop="38dp"
+       android:text="@string/last_detected"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   <TextView
+       android:id="@+id/caregiverTv"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/destinationTv"
+       android:layout_marginTop="37dp"
+       android:text="@string/caregiver"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   <TextView
+       android:id="@+id/locationEt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/locationTv"
+       android:layout_alignParentRight="true"
+       android:layout_alignTop="@+id/locationTv"
+       android:layout_toRightOf="@+id/locationTv"
+       android:paddingLeft="10dp"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   <TextView
+       android:id="@+id/destinationEt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/caregiverTv"
+       android:layout_alignLeft="@+id/locationEt"
+       android:layout_alignParentRight="true"
+       android:paddingLeft="10dp"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   <TextView
+       android:id="@+id/caregiverEt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/caregiverTv"
+       android:layout_alignBottom="@+id/caregiverTv"
+       android:layout_alignLeft="@+id/destinationEt"
+       android:layout_alignParentRight="true"
+       android:paddingLeft="10dp"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="200dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/caregiverTv"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="22dp"
+       android:text="@string/follow" />
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+
+       <item android:id="@+id/refresh"
+          android:icon="@drawable/ic_action_refresh"
+          android:title="@string/about_us"
+          android:showAsAction="ifRoom" />
+       
+        <item android:id="@+id/edit"
+          android:icon="@drawable/ic_action_edit"
+          android:title="@string/about_us"
+          android:showAsAction="ifRoom" />
+       
+    <item android:id="@+id/action_setting"
+          android:title="@string/action_setting"
+          android:showAsAction="never" />
+        
+</menu>
+ <!-- From: file:/C:/Users/Rohit/Documents/GitHub/WatchDog/app/src/main/res/menu/main.xml -->
