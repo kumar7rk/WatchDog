@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Rohit\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Rohit\Documents\GitHub\WatchDog\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-66d37227db3c6af83e777431c489ab3665b85936.jar" />
+    </item>
+    <item
+        jar="C:\Users\Rohit\Documents\GitHub\WatchDog\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Rohit\Documents\GitHub\WatchDog\app\build\intermediates\pre-dexed\debug\classes-c3d0bdea7f65e18e67df8dae72974a00551fb0f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Rohit\Documents\GitHub\WatchDog\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Rohit\Documents\GitHub\WatchDog\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-8e6f4b520c8ad135c088ecd433557597f43ee3fc.jar" />
+    </item>
+
+</items>

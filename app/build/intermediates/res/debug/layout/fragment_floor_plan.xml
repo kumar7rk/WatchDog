@@ -10,7 +10,7 @@
         android:layout_height="430dp"
         android:contentDescription="@string/app_name"
         android:scaleType="fitXY"
-        android:src="@drawable/floorplan" >
+        android:src="@drawable/ic_launcher" >
     </ImageView>
 
 </RelativeLayout><!-- From: file:/C:/Users/Rohit/Documents/GitHub/WatchDog/app/src/main/res/layout/fragment_floor_plan.xml -->
